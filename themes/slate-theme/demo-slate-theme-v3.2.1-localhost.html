@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Ext UI Theme - Slate Theme - localhost</title>
+
+	<!-- Standard includes -->
+	<link rel="stylesheet" type="text/css" href="../../../Ext-JS-v3.2.1/resources/css/ext-all.css" />	    
+    <script type="text/javascript" src="../../../Ext-JS-v3.2.1/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="../../../Ext-JS-v3.2.1/ext-all.js"></script>
+
+	<script type="text/javascript" src="../../../Ext-JS-v3.2.1/examples/themes/themes.js"></script>
+	<script type="text/javascript">
+		var getPreferredStyleSheet = readCookie = Ext.emptyFn;
+	</script>
+	
+	<link rel="stylesheet" type="text/css" href="resources/css/xtheme-slate.css" />
+    <style type="text/css">
+        body {
+            font-family: 'Helvetica Neue',tahoma,helvetica,sans-serif;
+            font-size: 12px;
+        }        
+        h1 a:link, h1 a:visited {
+            color: #046BCA;
+        }        
+        h1 a:hover, h1 a:focus, h1 a:active {
+            color: #1C417C;
+        }        
+        div#header {
+            height: 65px;
+            width: 1090px;
+            padding: 25px 0 10px 0;
+            margin: 0 50px;
+        }
+        div#header h1 {
+            font-family: MyriadPro-Semibold, 'Myriad Pro Semibold', 'Myriad Pro', 'Trebuchet MS', Tahoma, arial, sans-serif;
+            font-size: 250%;
+        }
+	    .x-viewport body {
+	        overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Ext UI Theme</h1>
+        <select name="styleswitcher_select" id="styleswitcher_select" class="x-hidden"></select>
+    </div>
+</body>
+</html>
