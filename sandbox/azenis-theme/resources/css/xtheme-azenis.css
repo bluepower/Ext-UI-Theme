@@ -15,12 +15,12 @@
 }
 .x-panel-header {
     color:#fafafa;
-	border:1px solid #abc;
+	border:1px solid #131416;
 	background-image:url(../images/azenis/panel/top-bottom.png);
 }
 
 .x-panel-body {
-    border-color:#abc;
+    border-color:#2C2E30;
 }
 
 .x-panel-bbar .x-toolbar {
