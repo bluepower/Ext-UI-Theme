@@ -279,18 +279,28 @@
 /* Menus */
 
 .x-menu{
-	border:1px solid #aaa;
+	padding-left:5px;
+	border:1px solid #131416;
 	background:#f0f0f0 url(../images/azenis/menu/menu.gif) repeat-y;
 }
-.x-menu-item-active{
-	background:#ebf3fd url(../images/azenis/menu/item-over.gif) repeat-x left bottom;
-	border:1px solid #c2cbd2;
+.x-menu-item-active{	
+	background:#D5D5D5 url(../images/azenis/menu/item-over.gif) repeat-x left bottom;
+	border:1px solid #131416;
+}
+.x-menu-item-active a.x-menu-item{
+	color:#fff;
+	border-color:#131416;
 }
 .x-menu-item-arrow{
 	background:transparent url(../images/azenis/menu/menu-parent.gif) no-repeat right;
 }
 
-.x-menu-nosep {
+.x-menu-sep{
+	background-color:#C0C1C3;
+	border-bottom-color:#EBEDEC;
+}
+
+.x-menu-nosep{
 	background-image:none;
 }
 
