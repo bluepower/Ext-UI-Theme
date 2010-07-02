@@ -24,18 +24,18 @@
 }
 
 .x-panel-bbar .x-toolbar {
-    border-color:#abc;
+    border-color:#131416;
 }
 
 .x-panel-tbar .x-toolbar {
-    border-color:#abc;
+    border-color:#131416;
 }
 
 .x-panel-tbar-noheader .x-toolbar, .x-panel-mc .x-panel-tbar .x-toolbar {
-    border-color:#abc;
+    border-color:#131416;
 }
 .x-panel-body-noheader, .x-panel-mc .x-panel-body {
-    border-color:#abc;
+    border-color:#131416;
 }
 .x-panel-tl .x-panel-header {
     color:#f4f4f4;
@@ -194,14 +194,14 @@
 /* Toolbars */
 
 .x-toolbar{
-	border-color:#abc;
+	border-color:#131416;
 	background:#516275 url(../images/azenis/toolbar/bg.gif) repeat-x top left;
 }
 .x-toolbar button {
-    color:#f4f4f4;
+    color:#333;
 }
 .x-toolbar .ytb-text {
-	color:#fff;
+	color:#333;
 }
 .x-toolbar .x-btn-menu-arrow-wrap .x-btn-center button {
     background-image:url(../images/azenis/toolbar/btn-arrow.gif);
@@ -437,7 +437,7 @@ ul.x-tab-strip-bottom{
 	background-image:url(../images/azenis/window/right-corners.png);
 }
 .x-window-mc {
-    border:1px solid #abc;
+    border:1px solid #131416;
     background:#e8e8e8;
 }
 
@@ -815,11 +815,11 @@ td.x-date-mp-sel a{
 /* Miscellaneous */
 
 .x-item-disabled * {
-	color:#333 !important;
+	color:#555 !important;
 }
 
 .xtb-text {
-	color:#fff !important;
+	color:#333 !important;
 }
 
 .x-tree-node .x-tree-selected {
