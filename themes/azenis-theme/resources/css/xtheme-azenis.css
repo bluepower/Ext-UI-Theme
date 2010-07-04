@@ -745,7 +745,7 @@ td.x-date-mp-sel a{
 	border:1px solid #abc;
 }
 .x-date-mp-btns button{
-	background:#405574;
+	background:#4d5256;
 	border:1px solid;
 	border-color:#abc #055 #055 #abc;
 }
@@ -853,4 +853,15 @@ td.x-date-mp-sel a{
 
 .x-tree-node .x-tree-selected,.x-tree-node .x-tree-node-over {
 	background-color: #cfc;
+}
+
+.x-fieldset legend .x-tool-toggle {
+	width: 15px;
+	height: 15px;
+	background:transparent url(../images/azenis/panel/fieldset-toggle-sprite.gif) no-repeat;
+	background-position:0 0;
+}
+
+.x-panel-collapsed legend .x-tool-toggle {
+	background-position:0 -15px;
 }
