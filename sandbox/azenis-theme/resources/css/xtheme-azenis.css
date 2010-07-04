@@ -49,15 +49,6 @@
 .x-panel-tr {
 	background-image:url(../images/azenis/panel/right-corners.png);
 }
-/*
-.x-panel-tl {
-	background-image:url(../images/azenis/panel/corners-sprite.gif);
-    border-color:#abc;
-}
-.x-panel-tr {
-	background-image:url(../images/azenis/panel/corners-sprite.gif);
-}
-*/
 .x-panel-bc {
 	background-image:url(../images/azenis/panel/top-bottom.gif);
 }
@@ -89,7 +80,29 @@
 /* Tools */
 .x-tool {
     background-image:url(../images/azenis/panel/tool-sprites.gif);
+	width: 20px;
+	height: 14px;
 }
+.x-tool-toggle-over { background-position: -20px -60px; }
+.x-panel-collapsed .x-tool-toggle-over { background-position:-20px -75px; }
+.x-tool-close-over { background-position: -20px 0; }
+.x-tool-minimize-over { background-position: -20px -15px; }
+.x-tool-maximize-over { background-position: -20px -30px; }
+.x-tool-restore-over { background-position: -20px -45px; }
+.x-tool-gear-over { background-position: -20px -90px; }
+.x-tool-pin-over { background-position: -20px -135px; }
+.x-tool-unpin-over { background-position: -20px -150px; }
+.x-tool-right-over,.x-tool-collapse-east-over,.x-tool-expand-west-over { background-position: -20px -165px; }
+.x-tool-left-over,.x-tool-collapse-west-over,.x-tool-expand-east-over { background-position: -20px -180px; }
+.x-tool-up-over,.x-tool-collapse-north-over,.x-tool-expand-south-over { background-position: -20px -210px; }
+.x-tool-down-over,.x-tool-collapse-south-over,.x-tool-expand-north-over { background-position: -20px -195px; }
+.x-tool-refresh-over { background-position: -20px -225px; }
+.x-tool-minus-over { background-position: -20px -255px; }
+.x-tool-plus-over { background-position: -20px -240px; }
+.x-tool-help-over { background-position: -20px -300px; }
+.x-tool-search-over { background-position: -20px -270px; }
+.x-tool-save-over { background-position: -20px -285px; }
+.x-tool-print-over { background-position: -20px -315px; }
 
 /* Ghosting */
 .x-panel-ghost {
@@ -159,34 +172,20 @@
 	background:url(../images/azenis/panel/light-hd.gif) repeat-x 0 0;
 }
 
-.x-accordion-hd .x-tool {
-    background-image:url(../images/azenis/panel/tool-sprites-dark.gif);
-	width: 20px;
-	height: 14px;
-}
-
-.x-accordion-hd .x-tool-toggle {
-	background-position:0 -14px;
-}
-
 .x-accordion-hd .x-tool-toggle-over {
-	background-position:-20px -14px;
-}
-
-.x-panel-collapsed .x-accordion-hd .x-tool-toggle {
-	background-position:0 0;
+	background-position:-20px -255px;
 }
 
 .x-panel-collapsed .x-accordion-hd .x-tool-toggle-over {
-	background-position:-20px 0;
+	background-position:-20px -240px;
 }
 
 .x-layout-collapsed{
-    background-color:#567;
+    background-color:#4d5256;
     border-color:#e0e0e0;
 }
 .x-layout-collapsed-over{
-	 background-color:#789;
+	 background-color:#5F6367;
 }
 
 
@@ -308,18 +307,17 @@
 /* Tabs */
 
 .x-tab-panel-header, .x-tab-panel-footer {
-	
-	background: #6b869f;
-	border-color:#4f657b;
+	background: #fafafa;
+	border-color:#9B9EA3;
 }
 
 
 .x-tab-panel-header {
-	border-color:#abc;
+	border-color:#9B9EA3;
 }
 
 .x-tab-panel-footer {
-	border-color:#abc;
+	border-color:#9B9EA3;
 }
 
 ul.x-tab-strip-top{
@@ -341,7 +339,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-strip-active span.x-tab-strip-text {
-	color:#fff;
+	color:#131416;
 }
 
 .x-tab-strip-disabled .x-tabs-text {
@@ -383,20 +381,20 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-panel-body {
-    border-color:#abc;
+    border-color:#9B9EA3;
     background:#fff;
 }
 .x-tab-panel-bbar .x-toolbar {
-    border-color: #abc;
+    border-color: #9B9EA3;
 }
 
 .x-tab-panel-tbar .x-toolbar {
-    border-color: #abc;
+    border-color: #9B9EA3;
 }
 
 .x-tab-panel-header-plain .x-tab-strip-spacer {
-    border-color:#abc;
-	background: #6b869f;
+    border-color:#9B9EA3;
+	background: #fafafa;
 }
 
 .x-tab-scroller-left {
@@ -438,7 +436,7 @@ ul.x-tab-strip-bottom{
 }
 .x-window-mc {
     border:1px solid #131416;
-    background:#e8e8e8;
+    background-color:#f5f5f5;
 }
 
 .x-window-ml {
@@ -480,7 +478,6 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
     border-color:#abc;
 }
 .x-html-editor-tb .x-btn-text {
-/*	background:transparent url(../images/azenis/editor/tb-sprite.gif) no-repeat scroll 0%; */
 	background-image:url(../images/azenis/editor/tb-sprite.gif);
 }
 
@@ -571,6 +568,10 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 	color:#333;
 }
 
+.x-form-invalid-icon {
+	background-image: url(../images/azenis/form/exclamation.gif);
+}
+
 /* 	the following need to be duplicated from ext-all.js,
 	otherwise hover effects are broken */
 .x-form-field-wrap .x-form-trigger-over{background-position:-17px 0;}
@@ -583,7 +584,7 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 /* Grid */
 
 .x-grid3-row-selected {
-	background-color:#fbf0d2 !important;
+	background-color:#cfc !important;
 	border:1px dotted #ccc;
 }
 .x-grid3-hd-btn{
@@ -656,14 +657,21 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 	background-image:url(../images/azenis/grid/sort-hd.gif);
 	background-color:#ebf3fd;
 }
+.x-list-over,.x-list-selected{
+	background-color:#cfc;
+}
 
 
 /* Progress Bar */
 
 .x-progress-bar{
 	background:#9CBFEE url( ../images/azenis/progress/progress-bg.gif ) repeat-x left center;
-	border-top:1px solid #ddd;
-	border-bottom:1px solid #ddd;
+	border-top:1px solid #2E3235;
+	border-bottom:1px solid #2E3235;
+}
+
+.x-progress-text-back{
+	color: #131416;
 }
 
 
@@ -674,7 +682,7 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 }
 .x-combo-list .x-combo-selected{
 	border:1px dotted #ccc!important;
-	background-color:#fbf0d2;
+	background-color:#cfc;
 }
 
 .x-resizable-pinned .x-combo-list-inner {
@@ -693,10 +701,22 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 	border-top:1px solid #abc;
 }
 .x-date-right a{
-	background-image:url(../images/azenis/shared/right-btn.gif);
+	width: 20px;
+	height: 14px;
+	background:transparent url(../images/azenis/panel/tool-sprites.gif) no-repeat;
+	background-position:0 -165px;
+}
+.x-date-right a:hover{
+	background-position:-20px -165px;
 }
 .x-date-left a{
-	background-image:url(../images/azenis/shared/left-btn.gif);
+	width: 20px;
+	height: 14px;
+	background:transparent url(../images/azenis/panel/tool-sprites.gif) no-repeat;
+	background-position:0 -180px;
+}
+.x-date-left a:hover{
+	background-position:-20px -180px;
 }
 .x-date-inner th{
 	background:#dfecfb url(../images/azenis/shared/glass-bg.gif) repeat-x left top;
@@ -728,6 +748,15 @@ td.x-date-mp-sel a{
 	background:#405574;
 	border:1px solid;
 	border-color:#abc #055 #055 #abc;
+}
+.x-date-mp-ybtn a{
+	width: 20px;
+}
+.x-date-mp-ybtn a.x-date-mp-prev:hover{
+	background-position:-20px -105px;
+}
+.x-date-mp-ybtn a.x-date-mp-next:hover{
+	background-position:-20px -120px;
 }
 
 /* Resizable Handle */
@@ -822,10 +851,6 @@ td.x-date-mp-sel a{
 	color:#333 !important;
 }
 
-.x-tree-node .x-tree-selected {
-	background-color: #fbf0d2;
-}
-
-.x-list-selected {
-    background-color:#fbf0d2;
+.x-tree-node .x-tree-selected,.x-tree-node .x-tree-node-over {
+	background-color: #cfc;
 }
