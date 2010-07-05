@@ -311,7 +311,7 @@
 }
 
 .x-tab-panel-header {
-	border-color:#9B9EA3;
+	border-color:#131416;
 }
 
 .x-tab-panel-footer {
@@ -379,7 +379,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-panel-body {
-    border-color:#9B9EA3;
+    border-color:#131416;
     background:#fff;
 }
 .x-tab-panel-bbar .x-toolbar {
@@ -391,7 +391,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-panel-header-plain .x-tab-strip-spacer {
-    border-color:#9B9EA3;
+    border-color:#131416;
 	background: #fafafa;
 }
 
@@ -496,7 +496,7 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
     border-width:0;
-    border-bottom:1px solid #abc;
+    border-bottom:1px solid #131416;
 }
 
 .x-panel-noborder .x-panel-bbar-noborder .x-toolbar {
