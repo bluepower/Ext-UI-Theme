@@ -205,12 +205,17 @@ THE SOFTWARE.
 	background: url(../images/azenis/panel/light-hd.gif) repeat-x 0 0;
 }
 
-.x-accordion-hd .x-tool-toggle-over {
-	background-position: -20px -255px;
+.x-accordion-hd .x-tool-toggle {
+	background-position: 0 -345px;
 }
-
+.x-accordion-hd .x-tool-toggle-over {
+	background-position: -20px -345px;
+}
+.x-panel-collapsed .x-accordion-hd .x-tool-toggle {
+	background-position: 0 -330px;
+}
 .x-panel-collapsed .x-accordion-hd .x-tool-toggle-over {
-	background-position: -20px -240px;
+	background-position: -20px -330px;
 }
 
 .x-layout-collapsed {
@@ -427,11 +432,11 @@ ul.x-tab-strip-bottom {
 
 .x-tab-scroller-left {
     background-image: url(../images/azenis/tabs/scroll-left.gif);
-    border-color: #aeaeae;
+    border-color: #4C647E;
 }
 .x-tab-scroller-right {
     background-image: url(../images/azenis/tabs/scroll-right.gif);
-    border-color: #aeaeae;
+    border-color: #4C647E;
 }
 
 
@@ -615,7 +620,7 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 
 /* Grid */
 .x-grid3-row-selected {
-	background-color: #cfc !important;
+	background-color: #B2D9FB !important;
 	border: 1px dotted #ccc;
 }
 .x-grid3-hd-btn {
@@ -688,7 +693,7 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 	background-color: #ebf3fd;
 }
 .x-list-over,.x-list-selected {
-	background-color: #cfc;
+	background-color: #B2D9FB;
 }
 
 
@@ -716,7 +721,7 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 }
 .x-combo-list .x-combo-selected {
 	border: 1px dotted #ccc!important;
-	background-color: #cfc;
+	background-color: #B2D9FB;
 }
 
 .x-resizable-pinned .x-combo-list-inner {
@@ -774,7 +779,7 @@ td.x-date-mp-month a:hover,td.x-date-mp-year a:hover {
 }
 td.x-date-mp-sel a {
 	background: #dfecfb url(../images/azenis/shared/glass-bg.gif) repeat-x left top;
-	border: 1px solid #abc;
+	border: 1px solid #4C647E;
 }
 .x-date-mp-btns button {
 	background: #4d5256;
@@ -911,7 +916,7 @@ td.x-date-mp-sel a {
 }
 
 .x-tree-node .x-tree-selected,.x-tree-node .x-tree-node-over {
-	background-color: #cfc;
+	background-color: #B2D9FB;
 }
 
 .x-fieldset legend .x-tool-toggle {
@@ -923,4 +928,8 @@ td.x-date-mp-sel a {
 
 .x-panel-collapsed legend .x-tool-toggle {
 	background-position: 0 -15px;
+}
+
+.x-mask-loading div {
+	background-image: url(../images/azenis/grid/loading.gif);
 }
