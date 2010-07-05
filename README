@@ -1,4 +1,4 @@
-@description Some user customized ExtJS UI themes
+@description Some user customized ExtJS UI themes (MIT License)
 
 @author Niko Ni (bluepspower@163.com)
 
@@ -7,7 +7,8 @@
 @base-lib extjs
 
 @link
--To be continued...
+http://github.com/bluepower/Ext-UI-Theme
 
 @demo
--To be continued...
+-Azenis Theme
+http://cz9908.com/showcase/?item=Azenis-Theme&p=1

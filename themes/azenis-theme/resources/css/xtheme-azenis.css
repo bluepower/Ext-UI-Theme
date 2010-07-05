@@ -123,10 +123,10 @@
 	background-image:url(../images/azenis/button/btn.gif);
 }
 
-.x-btn-over button{
-	color:#fff;
-}
 .x-btn-focus button{
+	color:#333;
+}
+.x-btn-over button{
 	color:#fff;
 }
 
@@ -187,7 +187,6 @@
 .x-layout-collapsed-over{
 	 background-color:#5F6367;
 }
-
 
 
 /* Toolbars */
@@ -311,7 +310,6 @@
 	border-color:#9B9EA3;
 }
 
-
 .x-tab-panel-header {
 	border-color:#9B9EA3;
 }
@@ -430,9 +428,11 @@ ul.x-tab-strip-bottom{
 }
 .x-window-bl {
 	background-image:url(../images/azenis/window/left-corners.png);
+	background-color:#f0f4f7;
 }
 .x-window-br {
 	background-image:url(../images/azenis/window/right-corners.png);
+	background-color:#f0f4f7;
 }
 .x-window-mc {
     border:1px solid #131416;
@@ -441,9 +441,11 @@ ul.x-tab-strip-bottom{
 
 .x-window-ml {
 	background-image:url(../images/azenis/window/left-right.png);
+	background-color:#f0f4f7;
 }
 .x-window-mr {
 	background-image:url(../images/azenis/window/left-right.png);
+	background-color:#f0f4f7;
 }
 .x-panel-ghost .x-window-tl {
     border-color:#abc;
@@ -525,7 +527,6 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 	border-right-width:0;
 }
 
-
 .x-tab-panel-bbar-noborder .x-toolbar {
     border-width:0;
     border-top:1px solid #abc;
@@ -572,7 +573,7 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 	background-image: url(../images/azenis/form/exclamation.gif);
 }
 
-/* 	the following need to be duplicated from ext-all.js,
+/* 	the following need to be duplicated from ext-all stylesheet,
 	otherwise hover effects are broken */
 .x-form-field-wrap .x-form-trigger-over{background-position:-17px 0;}
 .x-form-field-wrap .x-form-trigger-click{background-position:-34px 0;}
@@ -647,7 +648,7 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 	background-image: url(../images/azenis/grid/refresh.gif) !important;
 }
 .x-paging-info {
-	color:#FFFFFF;
+	color:#fff;
 }
 
 
