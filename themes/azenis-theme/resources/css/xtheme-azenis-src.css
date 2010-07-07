@@ -26,9 +26,9 @@ THE SOFTWARE.
  * @author Niko Ni (bluepspower@163.com)
  * @demo http://cz9908.com/showcase/?item=Azenis-Theme&p=1
  * @extra-demo http://cz9908.com/showcase/?item=desktop-fisheye&p=1
- * @version v0.2
+ * @version v0.2pr
  * @create 2010-07-01
- * @update 2010-07-05
+ * @update 2010-07-07
  */
 .ext-el-mask-msg {
     border-color: #303F4E;
@@ -516,6 +516,9 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 }
 .x-html-editor-tb .x-btn-text {
 	background-image: url(../images/azenis/editor/tb-sprite.gif);
+}
+.x-html-editor-tb .x-btn-over .x-btn-text {
+	background-image: url(../images/azenis/editor/tb-sprite-gray.gif);
 }
 
 
