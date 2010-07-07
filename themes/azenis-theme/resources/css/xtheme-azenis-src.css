@@ -26,7 +26,7 @@ THE SOFTWARE.
  * @author Niko Ni (bluepspower@163.com)
  * @demo http://cz9908.com/showcase/?item=Azenis-Theme&p=1
  * @extra-demo http://cz9908.com/showcase/?item=desktop-fisheye&p=1
- * @version v0.2pr
+ * @version v0.3pr
  * @create 2010-07-01
  * @update 2010-07-07
  */
@@ -517,9 +517,20 @@ body.x-body-masked .x-window-mc, body.x-body-masked .x-window-plain .x-window-mc
 .x-html-editor-tb .x-btn-text {
 	background-image: url(../images/azenis/editor/tb-sprite.gif);
 }
-.x-html-editor-tb .x-btn-over .x-btn-text {
-	background-image: url(../images/azenis/editor/tb-sprite-gray.gif);
-}
+.x-btn-over .x-edit-bold { background-position: 0 -16px; }
+.x-btn-over .x-edit-italic { background-position: -16px -16px; }
+.x-btn-over .x-edit-underline { background-position: -32px -16px; }
+.x-btn-over .x-edit-increasefontsize { background-position: -48px -16px; }
+.x-btn-over .x-edit-decreasefontsize { background-position: -64px -16px; }
+.x-btn-over .x-edit-insertorderedlist { background-position: -80px -16px; }
+.x-btn-over .x-edit-insertunorderedlist { background-position: -96px -16px; }
+.x-btn-over .x-edit-justifyleft { background-position: -112px -16px; }
+.x-btn-over .x-edit-justifycenter { background-position: -128px -16px; }
+.x-btn-over .x-edit-justifyright { background-position: -144px -16px; }
+.x-btn-over .x-edit-forecolor { background-position: -160px -16px; }
+/*.x-btn-over .x-edit-backcolor { background-position: -176px -16px; }*/
+/*.x-btn-over .x-edit-sourceedit { background-position: -192px -16px; }*/
+/*.x-btn-over .x-edit-createlink { background-position: -208px -16px; }*/
 
 
 /* Borders go last for specificity */
