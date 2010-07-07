@@ -731,7 +731,7 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 /* Combos */
 .x-combo-list {
 	border: 1px solid #89a;
-	background-color: #8EA8BB;
+	background-color: #647683;
 }
 .x-combo-list .x-combo-selected {
 	border: 1px dotted #ccc!important;
