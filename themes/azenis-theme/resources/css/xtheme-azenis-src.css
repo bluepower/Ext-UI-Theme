@@ -900,6 +900,9 @@ td.x-date-mp-sel a {
 .x-form-invalid-tip .x-tip-mr {
 	background-image:url(../images/azenis/form/error-tip-corners.gif);
 }
+.x-tip .x-tip-header-text,.x-tip .x-tip-body {
+	color: #E0E0E0;
+}
 
 
 /* Sliders */
