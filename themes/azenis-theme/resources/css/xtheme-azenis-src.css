@@ -26,9 +26,9 @@ THE SOFTWARE.
  * @author Niko Ni (bluepspower@163.com)
  * @demo http://cz9908.com/showcase/?item=Azenis-Theme&p=1
  * @extra-demo http://cz9908.com/showcase/?item=desktop-fisheye&p=1
- * @version v0.3pr
+ * @version v0.4pr
  * @create 2010-07-01
- * @update 2010-07-08
+ * @update 2010-08-23
  */
 .ext-el-mask-msg {
     border-color: #303f4e;
@@ -406,10 +406,12 @@ ul.x-tab-strip-bottom {
 }
 
 .x-tab-strip .x-tab-strip-closable a.x-tab-strip-close {
-	background-image: url(../images/azenis/tabs/tab-close.gif);
+	background-image: url(../images/azenis/tabs/tab-close-sprite.gif);
+	background-position: 0 0;
 }
 .x-tab-strip .x-tab-strip-closable a.x-tab-strip-close:hover{
-	background-image: url(../images/azenis/tabs/tab-close-over.gif);
+	background-image: url(../images/azenis/tabs/tab-close-sprite.gif);
+	background-position: 0 -11px;
 }
 
 .x-tab-panel-body {
@@ -786,7 +788,8 @@ td.x-date-mp-month a:hover,td.x-date-mp-year a:hover {
 	background: #cfdce1;
 }
 .x-date-mp-ybtn a {
-	background: transparent url(../images/azenis/panel/tool-sprites.gif) no-repeat;
+	background: transparent url(../images/azenis/panel/btn-date-mp-sprite.gif) no-repeat;
+	background-position: 0 0;
 }
 .x-date-mp-btns {
 	background: #dfecfb url(../images/azenis/shared/glass-bg.gif) repeat-x scroll left top;
@@ -801,13 +804,13 @@ td.x-date-mp-sel a {
 	border-color: #abc #055 #055 #abc;
 }
 .x-date-mp-ybtn a {
-	width: 20px;
+	width: 15px;
 }
-.x-date-mp-ybtn a.x-date-mp-prev:hover {
-	background-position: -20px -105px;
+.x-date-mp-ybtn a.x-date-mp-prev,.x-date-mp-ybtn a.x-date-mp-prev:hover {
+	background-position: 0 0;
 }
-.x-date-mp-ybtn a.x-date-mp-next:hover {
-	background-position: -20px -120px;
+.x-date-mp-ybtn a.x-date-mp-next,.x-date-mp-ybtn a.x-date-mp-next:hover {
+	background-position: -15px 0;
 }
 
 
