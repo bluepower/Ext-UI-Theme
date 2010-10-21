@@ -12,9 +12,12 @@
 	<script type="text/javascript" src="../../../Ext-JS-v3.3.0/examples/themes/themes.js"></script>
 	<script type="text/javascript">
 		var getPreferredStyleSheet = readCookie = Ext.emptyFn;
+		Ext.onReady(function() {
+			Ext.fly('info-area').update('(Ext version: v' + Ext.version + ')');
+		});
 	</script>
 	
-	<link rel="stylesheet" type="text/css" href="resources/css/xtheme-azenis.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/xtheme-azenis-src.css" />
     <style type="text/css">
         body {
             font-family: 'Helvetica Neue',tahoma,helvetica,sans-serif;
@@ -45,6 +48,7 @@
 <body>
     <div id="header">
         <h1>Ext UI Theme</h1>
+		<div id="info-area"></div>
         <select name="styleswitcher_select" id="styleswitcher_select" class="x-hidden"></select>
     </div>
 </body>

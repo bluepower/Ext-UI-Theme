@@ -26,9 +26,9 @@ THE SOFTWARE.
  * @author Niko Ni (bluepspower@163.com)
  * @demo http://cz9908.com/showcase/?item=Azenis-Theme&p=1
  * @extra-demo http://cz9908.com/showcase/?item=desktop-fisheye&p=1
- * @version v0.4pr
+ * @version v0.5
  * @create 2010-07-01
- * @update 2010-08-23
+ * @update 2010-10-21
  */
 .ext-el-mask-msg {
     border-color: #303f4e;
@@ -51,7 +51,13 @@ THE SOFTWARE.
 }
 
 .x-panel-body {
-    border-color: #4c647e;
+    border-color: #4c647e;	
+}
+.x-panel-noborder .x-panel-body {
+	background: url(../images/azenis/panel/corner-bg.png) no-repeat right bottom;
+}
+.x-tab-panel .x-panel-body {
+	background-image: none;
 }
 
 .x-panel-bbar .x-toolbar {
@@ -317,13 +323,15 @@ THE SOFTWARE.
 	background: #f0f0f0 url(../images/azenis/menu/menu.gif) repeat-y;
 }
 .x-menu-item-active {	
-	background: #d5d5d5 url(../images/azenis/menu/item-over.gif) repeat-x left bottom;
+	background: #6B6F78 url(../images/azenis/menu/item-over.gif) repeat-x left bottom;
 	border: 1px solid #4c647e;
 }
 .x-menu-item-active a.x-menu-item {
 	color: #fff;
 	border-color: #4c647e;
+	border-width: 0;
 }
+
 .x-menu-item-arrow {
 	background: transparent url(../images/azenis/menu/menu-parent.gif) no-repeat right;
 }
