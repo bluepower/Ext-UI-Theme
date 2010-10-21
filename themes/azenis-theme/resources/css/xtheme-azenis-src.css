@@ -858,6 +858,9 @@ td.x-date-mp-sel a {
 
 
 /* Tips */
+.x-tip-anchor {
+    background-image:url(../images/azenis/qtip/tip-anchor-sprite.gif);
+}
 .x-tip .x-tip-close {
 	background-image: url(../images/azenis/qtip/close.gif);
 }
