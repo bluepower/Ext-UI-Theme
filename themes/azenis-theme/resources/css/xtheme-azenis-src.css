@@ -704,7 +704,7 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 	background-image: url(../images/azenis/grid/page-prev.gif)!important;
 }
 .x-tbar-loading {
-	background-image: url(../images/azenis/grid/refresh.gif) !important;
+	background-image: url(../images/azenis/grid/refresh.png) !important;
 }
 .x-paging-info {
 	color:#fff;
